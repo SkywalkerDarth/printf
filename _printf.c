@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 #include <stdarg.h>
 
 /**
@@ -19,10 +19,10 @@ int (*check_format(const char *format))(va_list)
 		{"o", print_o},
 		{"x", print_x},
 		{"X", print_X},
-		{"p", print_p},
+		//{"p", print_p},
 		{"S", print_S},
-		{"r", print_r},
-		{"R", print_R},
+		//{"r", print_r},
+		//{"R", print_R},
 		{NULL, NULL}
 	};
 
